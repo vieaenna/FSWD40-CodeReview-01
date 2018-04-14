@@ -1,91 +1,97 @@
 /* setting font for website */
 
 * {
-	font-family: "Arial sans-serif", Arial;
+    font-family: "Arial sans-serif", Arial;
 }
+
 
 /* head section */
 
 #header {
-	background-color: #E05151; 
-	padding: 20px;
-	margin-bottom: 5px;
+    background-color: #E05151;
+    padding: 20px;
+    margin-bottom: 5px;
 }
 
 
 .heading {
-	color: white;
-	display: inline;
+    color: white;
+    display: inline;
 }
+
 
 /* navigation bar */
 
 #navigation {
-	padding: 10px; 
-	background-color: #868686;
-	margin-bottom: 15px;
+    padding: 10px;
+    background-color: #868686;
+    margin-bottom: 15px;
 }
 
 #links {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 ul li {
-	display: inline;
+    display: inline;
 }
 
 ul li a {
-	text-decoration: none;
-	color: white;
-	padding-right: 10px;
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
 }
 
-/* main part */ 
+
+/* main part */
 
 .images {
-	width: 500px;
-	height: 400px;
+    width: 500px;
+    height: 400px;
 }
 
+
 /* trying to float the pictures, but failing miserably. 
-tried floating and boxes, but no success. */ 
+tried floating and boxes, but no success. */
 
 .one-left {
-  float: left;
+    float: left;
 }
 
 .one-right {
-  float: right;
+    float: right;
 }
 
 .two-left {
-  float: left;
-  margin-top: 50px;
+    float: left;
+    margin-top: 50px;
 }
 
 .two-right {
-  float: right;
-  margin-top: 50px;
+    float: right;
+    margin-top: 50px;
 }
 
 p {
-	font-style: bold;
-	color: black;
-	font-size:  18px;
-	position: relative;
+    font-style: bold;
+    color: black;
+    font-size: 18px;
+    position: relative;
 }
 
-/* Contact Us Page */ 
+
+/* Contact Us Page */
 
 form {
-	font-style: bold;
-	font-size: 12px;
+    font-style: bold;
+    font-size: 12px;
 }
 
-/* footer */ 
+
+/* footer */
 
 #foot {
-	background-color: #E05151;
-	padding:  15px;
-	text-align: center;
+    background-color: #E05151;
+    padding: 15px;
+    text-align: center;
 }
